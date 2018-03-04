@@ -1,4 +1,4 @@
-FROM eboraas/debian:stable
+FROM ubuntu
 MAINTAINER Danis Yogaswara <danis@aniqma.com>
 
 RUN apt-get update && apt-get -y install apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
